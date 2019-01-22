@@ -1,0 +1,85 @@
+.container {
+    --red: #B4312F;
+    --teal: #3D889F;
+    --yellow: #D8B948;
+    --green: #367643;
+    --pink: #BF3C66;
+    --darkBlue: #17194D;
+    --beige: #E6D9C5;
+    --gray: #8E8682;
+
+    /* Adjusting these colors for accessibility contrast */
+    /* https://dequeuniversity.com/rules/axe/2.2/color-contrast?application=lighthouse */
+    background: var(--gray);
+    background: #6C6460;
+    color: var(--beige);
+    color: #EDE4D4;
+
+  }
+
+.colors {
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.text {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 24px;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    text-align: left;
+    padding: 0 25px;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+}
+
+.color-1 {
+    background: var(--red);
+}
+
+.color-2 {
+    background: var(--teal);
+}
+
+.color-3 {
+    background: var(--yellow);
+}
+
+.color-4 {
+    background: var(--green);
+}
+
+.color-5 {
+    background: var(--pink);
+}
+
+.color-6 {
+    background: var(--darkBlue);
+}
+
+.color-7 {
+    background: var(--beige);
+}
+
+
