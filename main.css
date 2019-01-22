@@ -17,6 +17,23 @@
 
   }
 
+.container.one {
+    /* Adjusting these colors for accessibility contrast */
+    /* https://dequeuniversity.com/rules/axe/2.2/color-contrast?application=lighthouse */
+    background: var(--gray);
+    background: #6C6460;
+    color: var(--beige);
+    color: #EDE4D4;
+}
+
+/* Reverse the background/foreground from the first */
+.container.two {
+    color: var(--gray);
+    color: #6C6460;
+    background: var(--beige);
+    background: #EDE4D4;
+}
+
 .colors {
     height: 200px;
 
@@ -55,7 +72,7 @@ p {
 }
 
 .color-1 {
-    background: var(--red);
+    color: var(--red);
 }
 
 .color-2 {
